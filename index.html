@@ -62,12 +62,24 @@
             color: #333;
         }
 
+        .hero-container{
+            background: hsla(0, 0%, 97%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 97%, 1) 33%, hsla(231, 6%, 76%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 97%, 1) 33%, hsla(231, 6%, 76%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 97%, 1) 33%, hsla(231, 6%, 76%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7F7F7", endColorstr="#BEBFC5", GradientType=1 );
+        }
         .hero {
             text-align: center;
             padding: 6rem 1rem;
             max-width: 800px;
             margin: 0 auto;
             height: 100vh;
+            
         }
 
         .hero h1 {
@@ -214,6 +226,7 @@
     </div>
  </nav>
 
+ <div class="hero-container">
     <section class="hero">
         <h1>Revolutionising Retail Trading</h1>
         <p>Auger's goal is to Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -227,6 +240,8 @@
             👥 Users currently signed up: 77
         </div>
     </section>
+ </div>
+  
 
     <section class="value-props">
         <div class="value-prop">
