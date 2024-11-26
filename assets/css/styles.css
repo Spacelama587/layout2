@@ -432,6 +432,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7F7F7", en
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
+        letter-spacing: normal;
     }
 
     .email-signup {
