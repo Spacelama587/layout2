@@ -420,13 +420,49 @@ body {
 .footer a {
     color: #666;
     text-decoration: none;
-    font-family: Satoshi-Light;
+    font-family: Satoshi-Medium;
+    text-decoration: underline;
 }
 
 .full-gray-bg-container{
     background-color: #ededed
 }
+.read-more-state {
+    display: none;
+}
 
+.read-more-full-text {
+    display: none;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.25s ease;
+}
+
+.read-more-state:checked + .read-more-wrap .read-more-full-text {
+    display: block;
+    opacity: 1;
+    max-height: 999px;
+}
+
+.read-more-trigger {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+    font-family: Satoshi-Light;
+}
+
+.read-more-state:checked + .read-more-wrap .read-more-short-text {
+    display: none;
+}
+
+.read-more-state:checked + .read-more-wrap .read-more-trigger::after {
+    content: 'Show Less';
+}
+
+.read-more-trigger::after {
+    content: 'Read More';
+}
 
 @media (max-width: 768px) {
 
