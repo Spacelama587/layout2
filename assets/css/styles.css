@@ -370,17 +370,10 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     padding: 4rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    background: hsla(0, 0%, 97%, 1);
 
-background: linear-gradient(180deg, hsla(0, 0%, 97%, 1) 33%, hsla(231, 6%, 76%, 1) 100%);
+    margin-top:2rem auto; 
 
-background: -moz-linear-gradient(180deg, hsla(0, 0%, 97%, 1) 33%, hsla(231, 6%, 76%, 1) 100%);
 
-background: -webkit-linear-gradient(180deg, hsla(0, 0%, 97%, 1) 33%, hsla(231, 6%, 76%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7F7F7", endColorstr="#BEBFC5", GradientType=1 );
 }
 
 .founder {
@@ -430,6 +423,9 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7F7F7", en
     font-family: Satoshi-Light;
 }
 
+.full-gray-bg-container{
+    background-color: #ededed
+}
 
 
 @media (max-width: 768px) {
