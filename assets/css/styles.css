@@ -430,7 +430,10 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7F7F7", en
     font-family: Satoshi-Light;
 }
 
+
+
 @media (max-width: 768px) {
+
     .hero h1 {
         font-size: 2rem;
         letter-spacing: normal;
@@ -446,5 +449,16 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7F7F7", en
 
     .founders {
         grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+    .hero {
+        padding: 3rem 1rem;  
+    }
+
+    .hero h1 {
+        font-size: 2rem;
     }
 }
