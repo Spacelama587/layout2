@@ -216,11 +216,7 @@ body {
     z-index: -1;
 }
 
-.logo {
-    font-weight: bold;
-    display: flex;
-    gap:8px;
-}
+
 
 .logo p{
     font-family:"Satoshi-Bold";
@@ -483,6 +479,9 @@ body {
         grid-template-columns: 1fr;
     }
 
+    .logo img{
+        width: 7rem;
+    }
 }
 
 @media screen and (max-width: 900px) and (orientation: landscape) {
