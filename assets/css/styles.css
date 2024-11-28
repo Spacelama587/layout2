@@ -292,19 +292,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top:0.2rem;
 }
 
 .container-two img{
-    width: 32px;
+    width: 22px;
 }
 
 .contact-btn {
     padding: 0.2rem 0.5rem;
     background-color: Black;
-    border-radius: 8px;
+    border-radius: 10px;
     text-decoration: none;
     color: white;
     font-family: Satoshi-Regular;
+    margin-top:0.5rem;
 }
 
 .hero-container{
