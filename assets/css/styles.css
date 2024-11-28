@@ -188,7 +188,8 @@
 body {
     line-height: 1.6;
     background-color: #fff;
-  
+    max-width: 61.25rem;
+    margin: 0 auto; 
 }
 
 
@@ -200,7 +201,8 @@ body {
     align-items:center;
     z-index: 100000; 
     padding: 0 1rem;  
-
+    max-width: 61.25rem;
+    margin: 0 auto; 
 }
 
 .navbar:before {
@@ -256,11 +258,17 @@ body {
     background: -webkit-radial-gradient(circle, hsla(0, 0%, 97%, 1) 33%, #ededed  100%);   
 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7F7F7", endColorstr=" #ededed ", GradientType=1 );
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 .hero {
     text-align: center;
     padding: 8rem 1rem;
-    max-width: 800px;
+    max-width: 61.25rem;
     margin: 0 auto;
     height: 100vh;
     
@@ -366,7 +374,8 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     padding: 4rem 2rem;
-
+    max-width: 980px;  /* Added to match body width */
+    margin: 0 auto;
     margin-top:2rem auto; 
 
 
@@ -375,6 +384,7 @@ body {
 .founder {
     text-align: left;
     position: relative; 
+
 }
 
 .founder-title{
@@ -421,7 +431,13 @@ body {
 }
 
 .full-gray-bg-container{
-    background-color: #ededed
+    background-color: #ededed;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 .read-more-state {
     display: none;
